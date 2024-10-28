@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.gr{
+
+@apply text-transparent bg-clip-text;
+
+background-image: linear-gradient(to right, #f1ffff, #ecf7f9, #e8eff3, #e4e7eb, #dfe0e2, #e0e0e2, #e1e1e1, #c4c3c3, #9c9a9a, #989797, #f7f7f7, #c8c8c8);
+}
+
+.bg{
+    background-image: linear-gradient(to right top, #000000, #0a0a0a, #121212, #181818, #1d1d1d, #232323, #292929, #2f2f2f, #373737, #3e3e3e, #464646, #4e4e4e);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+.imge {
+    position: relative;
+}
+
+.svg-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.svg-text text {
+    font-size: 5rem; /* Adjust as needed */
+    fill: none;
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    opacity: 0.3;
+    animation: stroke 5s forwards;
+}
+
+.imge img {
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes stroke {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+  
