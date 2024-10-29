@@ -14,6 +14,10 @@ background-image: linear-gradient(to right, #f1ffff, #ecf7f9, #e8eff3, #e4e7eb, 
     background-image: linear-gradient(to right top, #000000, #0a0a0a, #121212, #181818, #1d1d1d, #232323, #292929, #2f2f2f, #373737, #3e3e3e, #464646, #4e4e4e);
 }
 
+.underlinegradient{
+    background-image: linear-gradient(to right, #ffffff, #e5e5e5, #cccccc, #b4b3b3, #9c9b9b, #868585, #717070, #5d5c5c, #464545, #302f2f, #1b1b1b, #000000);
+}
+
 *{
     margin: 0;
     padding: 0;
