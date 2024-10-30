@@ -62,4 +62,7 @@ html, body{
     }
 }
 
-  
+::-webkit-scrollbar {
+    width: 4px;
+    background-color: #494949;
+  }
