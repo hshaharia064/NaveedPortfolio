@@ -63,6 +63,6 @@ html, body{
 }
 
 ::-webkit-scrollbar {
-    width: 4px;
+    width: 2px;
     background-color: #494949;
   }
